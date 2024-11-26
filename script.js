@@ -10,7 +10,7 @@ function reset() {
 document.getElementById('reset_button').addEventListener('click', reset);
 
 document.getElementById('change_button').addEventListener('click', () => {
-    reset();
+    // reset();
     const blockId = document.getElementById("block_id").value;
     const color = document.getElementById("colour_id").value;
     // alert(colorId)
